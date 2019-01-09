@@ -12,7 +12,7 @@ const employee = (props) => {
                     </div>
                     <div className="avatar-desc">
                     <h6><strong>{ props.nome }</strong></h6>
-                    <h6>{ props.idade }</h6>
+                    <h6>{ props.cargo }</h6>
                     </div>
               </div>
             </div>
