@@ -1,21 +1,27 @@
+body {
+  background: #d3cce3;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.app-logo {
+  width: 150px;
+  height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #43A0C8, #0cb7ba, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #43A0C8, #0cb7ba, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .App-link {
@@ -29,4 +35,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-employee {
+  float: left;
+  margin-bottom: 20px;
+}
+.card {
+  background-color: #f1f1ef;
+}
+.card-hover:hover {
+  background-color: #002a50;
+  color: #FFF;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.avatar-desc {
+  float: left;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.avatar-header-desc {
+  float: left;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.avatar-badge {
+  z-index: 99999;
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 10px;
+  background-color: #4dd1d3;
+  color: #0a2433;
+}
+
+.avatar-img {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.str-desc {
+  color: #0a2433;
+}
+
+.title-desc-name {
+  color: #707070;
+}
+
+.li-nav {
+  display: inline-block;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+.li-nav>a {
+  color: #FFF;
+  text-decoration: none;
 }
