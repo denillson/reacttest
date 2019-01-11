@@ -78,8 +78,8 @@ body {
 }
 
 .avatar-img {
-  margin-left: 15px;
-  margin-top: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .str-desc {

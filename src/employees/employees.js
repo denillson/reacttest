@@ -13,7 +13,7 @@ class Employees extends Component {
     }
 
     componentDidMount(){
-        fetch( 'https://api.jsonbin.io/b/5c3635947b31f426f85467bc' )
+        fetch( 'https://api.jsonbin.io/b/5c38d5fa2c87fa27306ca5da' )
         .then( (response) => {
             return response.json();
         })

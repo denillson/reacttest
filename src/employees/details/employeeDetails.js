@@ -6,7 +6,7 @@ const employee = (props) => {
             <div className="card shadow rounded-0">
                 <div className="card-body ">
                 <div className="avatar">
-                    <img className="rounded-circle avatar-img" alt="avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"/>
+                    <img className="rounded-circle avatar-img" alt="avatar" src={props.foto}/>
                 </div>
                    <div className="avatar-header-desc">
                         <h6 className="title-desc-name">NOME: <strong className="str-desc">{props.nome}</strong> </h6>
